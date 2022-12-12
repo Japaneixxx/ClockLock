@@ -1,0 +1,31 @@
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClockLock</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body data-theme="dark">
+
+    <div id="clock2"></div>
+    <input type="time" name="clock" id="clock" value="00:00"></input>
+
+    <input type="text" id="password" placeholder="Input the Password"></input>
+
+    <button onclick="test()" id="validate">Validate</button>
+    <div id="configs">
+        <input type="checkbox" name="rt" id="rt"><label for="rt"> Real Time</label></input>
+
+        <input type="checkbox" name="multiply" id="multiply"><label for="multiply"> Multiply by</label></input>
+        <input type="number" name="mult" id="mult" placeholder="1" value="1">
+
+        <br><button onclick="checks()" id="reset" name>Apply Configs</button>
+    </div>
+
+</body>
+
+</html>

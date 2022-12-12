@@ -1,0 +1,60 @@
+/*Light Theme*/
+body[data-theme="light"]{
+    --color-1: white;
+    --color-2: black;
+    --color-3: black;
+}
+
+/*Dark Theme*/
+body[data-theme="dark"]{
+    --color-1: black;
+    --color-2: white;
+    --color-3: white;
+    --color-japa: #4a25a2;
+}
+
+body{
+    background-color: var(--color-1);
+    color: var(--color-2);
+}
+
+#clock{
+    display: inline-block;
+    position:absolute;
+    margin-top: 7%;
+    padding: 1%;
+    left:45%;
+    font-size: 500%;
+}
+
+#clock2{
+    display: inline-block;
+    position:absolute;
+    margin-top: 17%;
+    padding: 1%;
+    left:45%;
+    font-size: 200%;
+}
+
+#password{
+    display: inline-block;
+    position:absolute;
+    margin-top: 25%;
+    padding: 1%;
+    left:45%;
+}
+
+#validate{
+    display: inline-block;
+    position:absolute;
+    margin-top: 30%;
+    padding: 1%;
+    left:50%;
+}
+#configs{
+    display: inline-block;
+    position:absolute;
+    margin-top: 40%;
+    padding: 1%;
+    left:44%;
+}
